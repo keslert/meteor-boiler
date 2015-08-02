@@ -1,0 +1,11 @@
+<template name="default">
+  {{> header}}
+  <div id="main">
+	  {{> yield}}
+
+    {{> modal}}
+	</div>
+  <script src="//interact.min.js"></script>
+  <script src="//vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+</template>
